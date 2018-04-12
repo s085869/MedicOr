@@ -1,4 +1,6 @@
 {
+	"username":"patient1",
+	"password":"patient",
 	"name": "personalData",
 	"persons": [{
 			"name":"Ala",
@@ -25,7 +27,9 @@
 			]
 		},
 		{
-      "name":"Kristine",
+			"username":"nurse1",
+			"password":"nurse",
+			"name":"Kristine",
       "surname":"Van Nuffel",
       "dateOfBirth":"11.02.1958",
       "gender":"female",
