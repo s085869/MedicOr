@@ -1,8 +1,10 @@
 {
-	"username":"patient1",
-	"password":"patient",
+
 	"name": "personalData",
 	"persons": [{
+			"username":"patient1",
+			"password":"patient",
+			"id":"0",
 			"name":"Ala",
       "surname":"Malta",
       "dateOfBirth":"10.05.1994",
@@ -29,6 +31,7 @@
 		{
 			"username":"nurse1",
 			"password":"nurse",
+			"id":"1",
 			"name":"Kristine",
       "surname":"Van Nuffel",
       "dateOfBirth":"11.02.1958",
