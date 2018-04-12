@@ -1,0 +1,22 @@
+#nurseImage{
+  opacity: 0.5;
+  width: 100%;
+}
+
+#nurseButton{
+  position: absolute;
+  top: 47%;
+  left: 42%;
+}
+
+#patientImage{
+  margin-top: 40px;
+  opacity: 0.5;
+  width: 100%;
+}
+
+#patientButton{
+  position: absolute;
+  top: 60%;
+  left: 40%;
+}
