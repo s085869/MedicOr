@@ -1,0 +1,41 @@
+
+
+//You need to copy this code into js file
+
+var data;
+var json=$.getJSON("personalData.json", function(){
+		console.log("JSON ok");
+		data=json.responseJSON;
+		//alert(JSON.stringify(json));
+		//alert(quiz.name);
+	}).fail(function(jqXHR, textStatus){
+		console.log("ERROR");
+		console.log("error " + textStatus);
+    console.log("incoming Text " + jqXHR.responseText);
+	});
+
+  //end of first part;
+
+
+  //here start getting data from Json file
+
+  //first you set variables
+  var person;
+  var person_id=0;
+  var username;
+  var password;
+  var name;
+  var surname;
+  var dateOfBirth;
+  var gender;
+  var status;
+  var imageLink;
+  var Allergis[];
+  var Medicine[];
+  var Illneses[];
+  var Treatment[];
+
+  //then You get data from in similar manner
+  person=data[person_id];
+  username=person.username;
+  .....
