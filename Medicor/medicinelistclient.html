@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+     <title>Missing pills</title>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <script src="jasnybootstrap/js/jasny-bootstrap.min.js"></script>
+      <link href="bootstrap337/css/bootstrap.min.css" rel="stylesheet">
+      <link href="jasnybootstrap/css/jasny-bootstrap.min.css" rel="stylesheet">
+      <link href="CSS/Perfil.css" rel="stylesheet">
+
+</head>
+
+    <body>
+        <!-- menu fixo -->
+    <nav class="navbar navbar-default navbar-fixed-top">
+      <div class="container">
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+            <span class="sr-only">Navegação</span>
+
+          </button>
+            <img id="img" src="imageminicial.jpg" alt="Utilizador">
+          <a class="navbar-brand" href="#">Conta do Utilizador</a>
+        </div>
+        <div id="navbar" class="navbar-collapse collapse">
+
+          <ul class="nav navbar-nav navbar-right">
+            <li><a href="nurseprofileclient.html"> <span class="glyphicon glyphicon-triangle-right">Nurse Profile</span></a></li>
+            <li><a href="Perfil1.html"> <span class="glyphicon glyphicon-user">Perfil</span></a></li>
+            <li><a class="active" href="#"><span class="glyphicon glyphicon-pencil"></span>Medicine List</a></li>
+            <li><a href="dayclient.html"> <span class="glyphicon glyphicon-triangle-right">Today</span></a></li>
+            <li><a href="index1.html"><span class="glyphicon glyphicon-log-out">Logout</span></a></li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+        <div class="table-responsive">
+            <table class="table table-hover">
+                <thead>
+                <tr>
+                        <th>Day</th>
+                        <th>Time</th>
+                        <th>Action</th>
+                        <th>Priority 1-</th>
+                    </tr>
+               </thead>
+                <tbody data-link="row" class="rowlink">
+                    <tr>
+                        <td>April, 25 2017</td>
+                        <td>8:00</td>
+                        <td>Didn't take Lyrica pill</td>
+                        <td></td>
+                    </tr>
+                    <tr>
+                        <td>May, 7 2018</td>
+                        <td>12:30</td>
+                        <td>Didn't take Forskolin pill</td>
+                        <td></td>
+                    </tr>
+                    <tr>
+                        <td>May, 15 2018</td>
+                        <td>20:15</td>
+                        <td>Didn't take Rohypnol</td>
+                        <td></td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+    </body>
+</html>
