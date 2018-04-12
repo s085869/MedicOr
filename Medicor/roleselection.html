@@ -12,14 +12,22 @@
   <body onload="lercookie()">
     <h1><center>Welcome! Select your role please.</center></h1>
     <div class="container">
-      <div class="col-md-6 center-block">
-        <img src="images/doctor.png" id="nurseImage">
-        <button id="nurseButton" class="btn btn-primary btn-lg center-block" onclick="setNurseCookie()">Nurse</button>
-      </div>
-      <div class="col-md-6 center-block">
-        <img src="images/oldlady.jpg" id="patientImage">
-        <button id="patientButton" class="btn btn-primary btn-lg center-block" onclick="setPatientCookie()">Patient</button>
-      </div>
+      <table>
+        <tr>
+          <th class="col-md-4 center-block">
+              <img src="images/oldlady.jpg" id="patientImage">
+              <button id="patientButton" class="btn btn-primary btn-lg center-block" onclick="setPatientCookie()">Patient</button>
+          </th>
+          <th class="col-md-4 center-block">
+              <img src="images/nurse.png" id="nurseImage">
+              <button id="nurseButton" class="btn btn-primary btn-lg center-block" onclick="setNurseCookie()">Nurse</button>
+          </th>
+          <th class="col-md-4 center-block">
+              <img src="images/doctor.png" id="doctorImage">
+              <button id="doctorButton" class="btn btn-primary btn-lg center-block" onclick="setDoctorCookie()">Doctor</button>
+          </th>
+        </tr>
+      </table>     
     </div>
   </body>
 </html>
