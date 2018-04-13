@@ -1,0 +1,56 @@
+{
+	"username":"patient1",
+	"password":"patient",
+	"name": "personalData",
+	"persons": [{
+			"name":"Ala",
+      "surname":"Malta",
+      "dateOfBirth":"10.05.1994",
+      "gender":"female",
+      "status":"patient",
+      "imageLink":"linkSource1.jpg",
+			"Allergis": [
+				"AA",
+				"AB"
+			],
+      "Medicine": [
+				"MA",
+				"MB"
+			],
+      "Illneses": [
+				"IA",
+				"IB"
+			],
+      "Treatment": [
+				"TA",
+				"TB"
+			]
+		},
+		{
+			"username":"nurse1",
+			"password":"nurse",
+			"name":"Kristine",
+      "surname":"Van Nuffel",
+      "dateOfBirth":"11.02.1958",
+      "gender":"female",
+      "status":"nurse",
+      "imageLink":"linkSource2.jpg",
+			"Allergis": [
+				"AAA",
+				"ABB"
+			],
+      "Medicine": [
+				"MAA",
+				"MBB"
+			],
+      "Illneses": [
+				"IAA",
+				"IBB"
+			],
+      "Treatment": [
+				"TAA",
+				"TBB"
+			]
+		}
+	]
+}

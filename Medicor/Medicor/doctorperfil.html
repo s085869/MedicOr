@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+     <title>Client Profile</title>
+
+
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+      <link href="bootstrap337/css/bootstrap.min.css" rel="stylesheet">
+      <link href="jasnybootstrap/css/jasny-bootstrap.min.css" rel="stylesheet">
+      <link href="CSS/Perfil.css" rel="stylesheet">
+
+</head>
+
+    <body>
+        <!-- menu fixo -->
+    <nav class="navbar navbar-default navbar-fixed-top">
+      <div class="container">
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+            <span class="sr-only">Navegação</span>
+
+          </button>
+            <img id="img" src="imageminicial.jpg" alt="Utilizador">
+          <a class="navbar-brand" href="#">client account</a>
+        </div>
+        <div id="navbar" class="navbar-collapse collapse">
+
+          <ul class="nav navbar-nav navbar-right">
+              <li><a  href="nurseprofile.html"> <span class="glyphicon glyphicon-triangle-right">Nurse Profile</span></a></li>
+              <li><a class="active" href="./"> <span class="glyphicon glyphicon-user">Perfil</span></a></li>
+              <li><a href="medicinelist.html"><span class="glyphicon glyphicon-pencil"></span>Medicine List</a></li>
+              <li><a href="index.html"><span class="glyphicon glyphicon-log-out">Logout</span></a></li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+    <div class="container">
+        <div class="row">
+            <img id="imagem" src="imageminicial.jpg">
+            <p class="text-center">change profile pic</p>
+            <input type="file" id="fileinput" class="center-block">
+        </div>
+        <div class="row">
+        <div class="text-center" style="display: none" id="change-avatar-buttons-confirmation">
+                <br>
+                <p>Change de profil pic?</p>
+                <button type="button" class="btn btn-lg btn-success" id="save-avatar-change" onclick="confirmChangeUserAvatar()">Confirmar</button>
+                <button type="button" class="btn btn-lg btn-danger" id="cancel-avatar-change" onclick="cancelChangeUserAvatar()">Cancelar</button>
+        </div>
+        </div>
+
+        <div class="row">
+            <table class="table table-striped table-hover">
+                <caption><b><i>Data of the client:</i></b></caption>
+
+                <tr>
+                    <th>Name:</th>
+                    <td id="Name" colspan="2">---------</td>
+                </tr>
+                <tr>
+                    <th>Day of birth</th>
+                    <td id="born" colspan="2">DD-MM-YYYY</td>
+                </tr>
+                <tr>
+                    <th>Nacionality</th>
+                    <td id="Nacionality" colspan="2">----------</td>
+                </tr>
+                <tr>
+                    <th>Gender</th>
+                    <td id="gender" colspan="2">Masculino/Feminino</td>
+                </tr>
+                <tr>
+                    <th>Gender</th>
+                    <td id="gender" colspan="2">Masculino/Feminino</td>
+                </tr>
+                <tr>
+                    <th>Adress</th>
+                    <td id="adress" colspan="2">Adress</td>
+                </tr>
+                <tr>
+                    <th>Phone Number</th>
+                    <td><input type="tel" name="cellphone" value="9XXXXXXXX" disabled id="details-user-cellphone" colspan="2"></td>
+                </tr>
+            </table>
+            <div class="text-center" id="change-contacts-buttons-confirmation">
+            <p>Change contact?</p>
+            <button type="button" class="btn btn-lg btn-success" id="save-contact-change" onclick="confirmChangeUser()">Change</button>
+            <button type="button" class="btn btn-lg btn-success" id="save-contact-change" onclick="confirmChangeUserPhone()">Confirm</button>
+        </div>
+        </div>
+    </div>
+  <script>
+function confirmChangeUser(){
+  if(document.getElementById('adress').disabled == false;){
+    document.getElementById('adress').disabled == true;
+  }
+  else{document.getElementById('adress').disabled == false;}
+
+}
+  </script>
+        </div>
+    </div>
+    </body>
+</html>
