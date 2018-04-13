@@ -31,10 +31,10 @@
           <ul class="nav navbar-nav navbar-right">
             <li><a class="active" href="#"> <span class="glyphicon glyphicon-triangle-right">Nurse Profile</span></a></li>
             <li><a href="Perfil1.html"> <span class="glyphicon glyphicon-user">Perfil</span></a></li>
-            <li><a href="medicinelistclient.html"><span class="glyphicon glyphicon-pencil"></span>Medicine List</a></li>
+            <li><a href="medicinelist.html"><span class="glyphicon glyphicon-pencil"></span>Medicine List</a></li>
 			<li><a href="medicalhistory.html"><span class="glyphicon glyphicon-pencil"></span>Medical History</a></li>
             <li><a href="dayclient.html"> <span class="glyphicon glyphicon-triangle-right">Today</span></a></li>
-            <li><a href="index1.html"><span class="glyphicon glyphicon-log-out">Logout</span></a></li>
+            <li><a href="roleselection.html"><span class="glyphicon glyphicon-log-out">Logout</span></a></li>
           </ul>
         </div>
       </div>
@@ -43,7 +43,6 @@
         <div class="row">
             <img id="imagem" src="imageminicial.jpg">
             <p class="text-center">Mudar imagem de perfil</p>
-            <input type="file" id="fileinput" class="center-block">
         </div>
         <div class="row">
         <div class="text-center" style="display: none" id="change-avatar-buttons-confirmation">
@@ -77,23 +76,16 @@
                 <tr>
                     <th>Phone Number</th>
                     <td><input type="tel" name="cellphone" value="9XXXXXXXX" disabled id="details-user-cellphone"></td>
-                    <td onclick="changeUserContacts()" id="change-contacts-button"><a href="#">change phone number</a></td>
                 </tr>
                 <tr>
                     <th>Available</th>
                     <td><input type="" name="email" value="user@provas.com" disabled id="details-user-email"></td>
-                    <td onclick="changeUserContacts()" id="change-contacts-button"><a href="#">Alterar email</a></td>
-                </tr>
-
             </table>
         </div>
         <div class="text-center" style="display: none" id="change-contacts-buttons-confirmation">
             <p>Alterar contactos?</p>
             <button type="button" class="btn btn-lg btn-success" id="save-contact-change" onclick="confirmChangeUserPhone()">Confirmar</button>
             <button type="button" class="btn btn-lg btn-danger" id="cancel-contact-change" onclick="cancelChangeUserPhone()">Cancelar</button>
-        </div>
-        <div class="row">
-            <a href="#" id="change-password-button" onclick="changeUserPassword()">Alterar password?</a>
         </div>
     </div>
     </body>
