@@ -25,14 +25,14 @@
             <span class="sr-only">Navegação</span>
 
           </button>
-            <img id="img" src="imageminicial.jpg" alt="Utilizador">
+            <img id="img" src="images/oldlady.jpg">
           <a class="navbar-brand" href="#">client account</a>
         </div>
         <div id="navbar" class="navbar-collapse collapse">
 
           <ul class="nav navbar-nav navbar-right">
             <li><a href="nurseprofileclient.html"> <span class="glyphicon glyphicon-triangle-right">Nurse Profile</span></a></li>
-            <li><a class="active" href="#"> <span class="glyphicon glyphicon-user">Perfil</span></a></li>
+            <li><a class="active" href="#"> <span class="glyphicon glyphicon-user">Patient Profile</span></a></li>
             <li><a href="medicinelist.html"><span class="glyphicon glyphicon-pencil"></span>Medicine List</a></li>
 			<li><a href="medicalhistory.html"><span class="glyphicon glyphicon-pencil"></span>Medical History</a></li>
             <li><a href="dayclient.html"> <span class="glyphicon glyphicon-triangle-right">Today</span></a></li>
@@ -43,7 +43,7 @@
     </nav>
     <div class="container">
         <div class="row">
-            <img id="imagem" src="imageminicial.jpg">
+            <img id="imagem" src="images/oldlady.jpg">
             <p class="text-center">change profile pic</p>
             <input type="file" id="fileinput" class="center-block">
         </div>
@@ -61,7 +61,7 @@
                 <caption><b><i>Data of the client:</i></b></caption>
 
                 <tr>
-                    <th>Name:</th>
+                    <th>Name</th>
                     <td id="Name" colspan="2">---------</td>
                 </tr>
                 <tr>
@@ -98,9 +98,7 @@
                     <th>Medicine</th>
                     <td><input type="medicine" name="medicine" value="medicine" disabled id="details-user-email"></td>
                 </tr>
-                <tr>
-                  <div id="googleMap" style="width:100%;height:400px;"></div>
-                </tr>
+                
 <script>
 function myMap() {
 var mapProp= {
