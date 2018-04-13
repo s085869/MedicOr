@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+     <title>Roleselection</title>
+      <script src="javascript/roleselection.js"></script>     
+      <link href="bootstrap337/css/bootstrap.min.css" rel="stylesheet"> <!-- Bootstrap -->
+      <link href="CSS/roleselection.css" rel="stylesheet">
+  </head>
+  <body onload="lercookie()">
+    <h1><center>Welcome! Select your role please.</center></h1>
+    <div class="container">
+      <table>
+        <tr>
+          <th class="col-md-4 center-block">
+              <img src="images/oldlady.jpg" id="patientImage">
+              <button id="patientButton" class="btn btn-primary btn-lg center-block" onclick="setPatientCookie()">Patient</button>
+          </th>
+          <th class="col-md-4 center-block">
+              <img src="images/nurse.png" id="nurseImage">
+              <button id="nurseButton" class="btn btn-primary btn-lg center-block" onclick="setNurseCookie()">Nurse</button>
+          </th>
+          <th class="col-md-4 center-block">
+              <img src="images/doctor.png" id="doctorImage">
+              <button id="doctorButton" class="btn btn-primary btn-lg center-block" onclick="setDoctorCookie()">Doctor</button>
+          </th>
+        </tr>
+      </table>     
+    </div>
+  </body>
+</html>

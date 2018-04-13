@@ -1,0 +1,34 @@
+#nurseImage{
+  margin-left: 90px;
+  margin-top: 50%;
+  opacity: 0.5;
+  width: 50%;
+}
+
+#nurseButton{
+  position: relative;
+  top: -75px;
+}
+
+#patientImage{
+  margin-top: 65%;
+  opacity: 0.5;
+  width: 100%;
+}
+
+#patientButton{
+  position: relative;
+  top: -75px;
+}
+
+#doctorImage{
+  margin-left: 60px;
+  margin-top: 45%;
+  opacity: 0.5;
+  width: 65%;
+}
+
+#doctorButton{
+  position: relative;
+  top: -75px;
+}
