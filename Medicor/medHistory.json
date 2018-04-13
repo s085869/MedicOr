@@ -1,0 +1,20 @@
+{
+
+	"name": "medicalhistory",
+	"events": [{
+      "id":"0",
+      "personId":"0",
+      "date":"12.03.2013",
+      "shortDescription":"des1",
+      "fullDescription":"des11"
+
+		},
+		{
+      "id":"0",
+      "personId":"0",
+      "date":"12.03.2013",
+      "shortDescription":"des1",
+      "fullDescription":"des11"
+		}
+	]
+}

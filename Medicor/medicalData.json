@@ -5,7 +5,8 @@
       "id":"0",
       "personId":"0",
       "date":"12.03.2013",
-      "time":"8:30",
+      "time":"8:00",
+			"timeLimit":"8:30",
       "action":"action1",
       "priority":"1"
 
@@ -15,6 +16,7 @@
       "personId":"1",
       "date":"15.03.2013",
       "time":"8:30",
+			"timeLimit":"9:30",
       "action":"action2",
       "priority":"10"
 		}
