@@ -32,3 +32,7 @@
   position: relative;
   top: -75px;
 }
+
+li.patient, .nurse, .doctor{
+  display: none;
+}

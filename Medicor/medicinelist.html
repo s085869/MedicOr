@@ -9,9 +9,11 @@
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
     <script src="jasnybootstrap/js/jasny-bootstrap.min.js"></script>
+    <script src="javascript/roleselection.js"></script>
       <link href="bootstrap337/css/bootstrap.min.css" rel="stylesheet">
       <link href="jasnybootstrap/css/jasny-bootstrap.min.css" rel="stylesheet">
       <link href="CSS/Perfil.css" rel="stylesheet">
+      <link href="CSS/roleselection.css" rel="stylesheet">
 
 </head>
 
@@ -34,6 +36,7 @@
             <li><a href="Perfil.html"> <span class="glyphicon glyphicon-user">Client Profile</span></a></li>
             <li><a class="active" href="#"><span class="glyphicon glyphicon-pencil"></span>Medicine List</a></li>
 			<li><a href="medicalhistory.html"><span class="glyphicon glyphicon-pencil"></span>Medical History</a></li>
+            <li class="patient" ><a href="dayclient.html"> <span class="glyphicon glyphicon-triangle-right">Today</span></a></li>
             <li><a href="index.html"><span class="glyphicon glyphicon-log-out">Logout</span></a></li>
           </ul>
         </div>
@@ -73,4 +76,7 @@
             </table>
         </div>
     </body>
+    <script>
+        loadContent();
+    </script>
 </html>

@@ -19,3 +19,15 @@ function getCookie(name)
     var value = re.exec(document.cookie);
     return (value != null) ? unescape(value[1]) : null;
   }
+
+function loadContent(){
+  console.log("." + getCookie("role"))
+  $("." + getCookie("role")).show();
+
+  /*var role = getCookie("role");
+  var elements = document.getElementsByClassName(role);
+  var i;
+  for (i = 0; i < elements.length; i++) {
+    elements[i].show();
+  }*/
+}
